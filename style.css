@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@300&display=swap');
+
+h3
+{
+   font-size: 20px; 
+   font-weight: bold ;
+   margin-bottom: 15px;
+   margin-top: 20px;
+}
+
+body
+{
+    font-family: 'Playfair Display', serif;
+    background: url(https://kartinkinaden.ru/uploads/posts/2020-09/1600135542_17-p-fon-minimalizm-dlya-prezentatsii-21.jpg);
+    padding: 50px 0;
+}
+.container
+{
+ width: 800px;
+ min-height: 1200px;
+ border: 10px solid white;
+ margin: 0 auto;
+ background:honeydew;
+}
+
+.header
+{
+    display: flex;
+    height: 150px;
+}
+
+.title-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    font-size: 30px;
+    margin-right: 10px;
+    background: url(https://look.com.ua/pic/201903/1600x900/look.com.ua-333504.jpg) no-repeat center center / cover;
+}
+
+.userpic
+{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    background: url(https://i02.fotocdn.net/s119/afd22693d9f3bdc0/gallery_m/2731307912.jpg) no-repeat center center / cover;
+}
+
+.nav ul
+{
+  display: flex;
+  background: burlywood;
+  margin: 7px 0;
+}
+
+
+.nav li a
+{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid rgb(172, 50, 6) ;
+    transition: background 0.4s ease;
+}
+
+.nav li a:hover
+{
+    background:coral;
+    transition: background 1s ease;
+}
+
+
+
+.content
+{
+  width: 90%;
+  padding: 20px;
+}
+
+.content_2
+{
+    width: 90%;
+    padding: 20px;
+}
+
+.content_3
+{
+    font-size: 20px; 
+    width: 90%;
+    padding: 20px;
+}
